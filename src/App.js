@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import DevOptions from './components/DevOptions';
+import Developers from './components/Developers';
+import Hero from './components/Hero';
+import Poster from './components/Poster';
+import Tech from './components/Tech';
+import Security from './components/Security';
+import Advantages from './components/Advantages';
+import Poster2 from './components/Poster2';
+import Financial from './components/Financial';
+import Radium from './components/Radium';
+import Display from './components/Display';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="div">
+      <Hero />
+      <Tech />
+      <Developers />
+      <DevOptions />
+      <Poster />
+      <Security />
+      <Advantages />
+      <Poster2 />
+      <Financial />
+      <Radium />
+      <Display />
+<Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
