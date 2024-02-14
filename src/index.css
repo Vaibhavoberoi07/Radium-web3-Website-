@@ -1161,7 +1161,7 @@
 
 }
 
-@media only screen and (min-device-width: 890px) and (max-device-width: 1025px) {
+@media only screen and (min-device-width: 890px) and (max-device-width: 1300px) {
     .main-h {
         font-size: 7vw;
     }
