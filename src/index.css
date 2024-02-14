@@ -934,6 +934,9 @@
 
     .developers>h1 {
         font-size: 11.8vw;
+    }
+
+    .margin{
         margin-top: 10vh;
     }
 
@@ -1225,6 +1228,7 @@
 
     .developers>h1 {
         font-size: 6.8vw;
+        margin-top: 0;
     }
 
     .developers>span {
