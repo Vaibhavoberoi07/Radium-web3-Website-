@@ -11,17 +11,7 @@ const Navbar = () => {
     setopen(!open)
   }
 
-  if (open === true) {
-    document.querySelector("body").classList.add("overflowv")
-  }
-  else{
-    document.querySelector("body").classList.remove("overflowv")
-  }
 
-  const overFlow = ()=>{
-    document.querySelector("body").classList.remove("overflowv")
-    setopen(!open)
-  }
 
   return (
     <div id='Navbar'>
@@ -29,11 +19,11 @@ const Navbar = () => {
       <div className="menu" onClick={Toggle}><IoMenu /></div>
       <h2>RADIUM</h2>
       <div className={open ? "nav visibility" : "nav"}>
-        <h5> <a href="/" onClick={overFlow}>Learn</a></h5>
-        <h5><a href="#Build" onClick={overFlow}>Build</a></h5>
-        <h5><a href="#Developer" onClick={overFlow}>Developers</a></h5>
-        <h5><a href="#Network" onClick={overFlow}>Network</a></h5>
-        <h5><a href="#Display" onClick={overFlow}>Community</a></h5>
+        <h5> <a href="/" >Learn</a></h5>
+        <h5><a href="#Build" >Build</a></h5>
+        <h5><a href="#Developer" >Developers</a></h5>
+        <h5><a href="#Network" >Network</a></h5>
+        <h5><a href="#Display" >Community</a></h5>
       </div>
 
     </div>
